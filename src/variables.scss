@@ -1,0 +1,42 @@
+:root {
+    /*========== Colours ==========*/
+    --title-color: gray;
+    --text-color: #555;
+    --accent-color: #6439ff;
+    --accent-color-alternate: #7451f8;
+    --accent-color-light: #ece8ff;
+    --body-color: #fff;
+
+    /*========== Shadow =============*/
+    --box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+    /*========== Font and typography ==========*/
+    --body-font: "Source Sans Pro", sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+    --smallest-font-size: 0.75rem;
+
+    /*========== Font weight ==========*/
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /*========== Margin Bottom ==========*/
+    /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+    --mb-0-25: 0.25rem;
+    --mb-0-5: 0.5rem;
+    --mb-0-75: 0.75rem;
+    --mb-1: 1rem;
+    --mb-1-25: 1.25rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+}
