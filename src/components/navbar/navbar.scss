@@ -3,8 +3,9 @@
     border: 0.5px solid rgb(230, 227, 227);
     display: flex;
     align-items: center;
-    font-size: var(--normal-font-size);
+    font-size: var(--small-font-size);
     color: var(--text-color);
+    background-color: var(--body-color);
     z-index: 1000;
     position: sticky;
     top: 0;
@@ -14,20 +15,21 @@
         flex: 2;
         align-items: center;
         justify-content: space-between;
-        padding: var(--mb-1-25);
+        padding: var(--mb-20);
 
         .logo {
             color: var(--accent-color);
             font-size: var(--h2-font-size);
             font-weight: var(--font-bold);
-            margin-right: var(--mb-1-25);
+            margin-right: var(--mb-20);
+            cursor: pointer;
         }
 
         .search {
             display: flex;
             align-items: center;
             border: 0.5px solid lightgray;
-            padding: var(--mb-0-25);
+            padding: var(--mb-04);
 
             input {
                 border: none;
@@ -46,17 +48,22 @@
         align-items: center;
         justify-content: flex-end;
         flex: 5;
-        padding: var(--mb-1-25);
+        padding: var(--mb-20);
 
         .item {
             display: flex;
             align-items: center;
-            margin-right: var(--mb-1-25);
+            margin-right: var(--mb-20);
             color: var(--title-colour);
             position: relative;
+            cursor: pointer;
 
             &:hover {
                 color: var(--accent-color);
+            }
+
+            .icon {
+                font-size: var(--h3-font-size);
             }
 
             .counter {
@@ -71,7 +78,7 @@
                 right: -5px;
                 background-color: red;
                 color: white;
-                font-size: var(--smallest-font-size);
+                font-size: var(--smaller-font-size);
                 font-weight: var(--font-semi-bold);
             }
 
