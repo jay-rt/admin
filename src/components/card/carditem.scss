@@ -30,6 +30,8 @@
         border: none;
         border-radius: 10px;
         padding: var(--mb-05) var(--mb-10);
+        background-color: var(--accent-color);
+        color: var(--body-color);
         cursor: pointer;
 
         .card-icon {
