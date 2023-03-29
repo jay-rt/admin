@@ -1,6 +1,6 @@
 import Chart from "../../components/charts/area/Chart";
 import Circular from "../../components/charts/circular/Circular";
-import BasicTable from "../../components/tables/basic/Basictable";
+import BasicTable from "../../components/tables/basic/BasicTable";
 import Widget from "../../components/widget/Widget";
 import "./home.scss";
 

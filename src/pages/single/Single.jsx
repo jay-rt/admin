@@ -1,5 +1,5 @@
 import Chart from "../../components/charts/area/Chart";
-import Basictable from "../../components/tables/basic/Basictable";
+import Basictable from "../../components/tables/basic/BasicTable";
 import "./single.scss";
 
 const Single = ({ title }) => {

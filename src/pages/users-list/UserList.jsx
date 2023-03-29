@@ -1,4 +1,4 @@
-import DataTable from "../../components/tables/datatable/Datatable";
+import DataTable from "../../components/tables/datatable/DataTable";
 
 const userColumns = [
   { field: "id", headerName: "ID", width: 90 },
